@@ -1,0 +1,302 @@
+{
+    "resourceType": "Bundle",
+    "id": "83b71029-9ced-4eb4-b5bc-d7c7fea622bd",
+    "type": "searchset",
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure?patient=12724066"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/2574524413",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "2574524413",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2022-05-07T07:57:20Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Procedure</b></p><p><b>Patient</b>: Smart II, Nancy</p><p><b>Procedure</b>: &amp;^%&amp;^%&amp;^%</p><p><b>Period Start Date</b>: Oct 14, 2021  1:13 P.M. UTC</p><p><b>Period End Date</b>: Oct 14, 2021  1:13 P.M. UTC</p><p><b>Status</b>: Completed</p><p><b>Location</b>: MX Hospital</p><p><b>Recorder</b>: SYSTEM, SYSTEM Cerner</p><p><b>Performer</b>:</p><ul><li>Cerner Test, Physician - Women&#39;s Health Cerner</li></ul></div>"
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "119954001",
+                            "display": "Adenoid excision (procedure)",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "&^%&^%&^%"
+                },
+                "subject": {
+                    "reference": "Patient/12724066",
+                    "display": "Smart II, Nancy"
+                },
+                "encounter": {
+                    "reference": "Encounter/97953477"
+                },
+                "performedPeriod": {
+                    "start": "2021-10-14T13:13:20Z",
+                    "end": "2021-10-14T13:13:20Z"
+                },
+                "recorder": {
+                    "reference": "Practitioner/1",
+                    "display": "SYSTEM, SYSTEM Cerner"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/4122630",
+                            "display": "Cerner Test, Physician - Women's Health Cerner"
+                        }
+                    }
+                ],
+                "location": {
+                    "reference": "Location/21250409",
+                    "display": "MX Hospital"
+                },
+                "note": [
+                    {
+                        "authorReference": {
+                            "reference": "Practitioner/1",
+                            "display": "SYSTEM, SYSTEM Cerner"
+                        },
+                        "time": "2022-05-07T07:57:21Z",
+                        "text": "dat test comment note"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/2574634201",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "2574634201",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2022-06-14T03:23:40Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Procedure</b></p><p><b>Patient</b>: Smart II, Nancy</p><p><b>Procedure</b>: &amp;^%&amp;^%&amp;^%.   UIIU</p><p><b>Date</b>: Jun 10, 2022</p><p><b>Status</b>: Completed</p><p><b>Location</b>: MX Hospital</p><p><b>Recorder</b>: SYSTEM, SYSTEM Cerner</p><p><b>Performer</b>:</p><ul><li>Cerner Test, Physician - Women&#39;s Health Cerner</li></ul></div>"
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "119954001",
+                            "display": "Adenoid excision (procedure)",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "&^%&^%&^%.   UIIU"
+                },
+                "subject": {
+                    "reference": "Patient/12724066",
+                    "display": "Smart II, Nancy"
+                },
+                "encounter": {
+                    "reference": "Encounter/97953477"
+                },
+                "performedDateTime": "2022-06-10",
+                "recorder": {
+                    "reference": "Practitioner/1",
+                    "display": "SYSTEM, SYSTEM Cerner"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/4122630",
+                            "display": "Cerner Test, Physician - Women's Health Cerner"
+                        }
+                    }
+                ],
+                "location": {
+                    "reference": "Location/21250409",
+                    "display": "MX Hospital"
+                },
+                "note": [
+                    {
+                        "authorReference": {
+                            "reference": "Practitioner/1",
+                            "display": "SYSTEM, SYSTEM Cerner"
+                        },
+                        "time": "2022-06-14T03:23:41Z",
+                        "text": "&*^&&te"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+    {
+            "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/2575053797",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "2575053797",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2023-05-23T13:19:36Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Procedure</b></p><p><b>Patient</b>: Smart II, Nancy</p><p><b>Procedure</b>: Fibrinogen assay, quantitative</p><p><b>Period Start Date</b>: Oct  1, 1990 12:00 A.M. UTC</p><p><b>Period End Date</b>: Oct  1, 1990 12:00 A.M. UTC</p><p><b>Status</b>: Completed</p><p><b>Recorder</b>: SYSTEM, SYSTEM Cerner</p><p><b>Performer</b>:</p><ul><li>Cerner Test, Physician - Women&#39;s Health Cerner</li></ul></div>"
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "6668007",
+                            "display": "Fibrinogen assay, quantitative (procedure)",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Fibrinogen assay, quantitative"
+                },
+                "subject": {
+                    "reference": "Patient/12724066",
+                    "display": "Smart II, Nancy"
+                },
+                "encounter": {
+                    "reference": "Encounter/98006786"
+                },
+                "performedPeriod": {
+                    "start": "1990-10-01T00:00:00Z",
+                    "end": "1990-10-01T00:00:00Z"
+                },
+                "recorder": {
+                    "reference": "Practitioner/1",
+                    "display": "SYSTEM, SYSTEM Cerner"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/4122630",
+                            "display": "Cerner Test, Physician - Women's Health Cerner"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+    {
+            "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/2574933189",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "2574933189",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2023-03-18T02:07:15Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Procedure</b></p><p><b>Patient</b>: Smart II, Nancy</p><p><b>Procedure</b>: Burn Care</p><p><b>Date</b>: Mar 17, 2023</p><p><b>Status</b>: Completed</p><p><b>Recorder</b>: SYSTEM, SYSTEM Cerner</p></div>"
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "133901003",
+                            "display": "Burn care (regime/therapy)",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Burn Care"
+                },
+                "subject": {
+                    "reference": "Patient/12724066",
+                    "display": "Smart II, Nancy"
+                },
+                "encounter": {
+                    "reference": "Encounter/98006786"
+                },
+                "performedDateTime": "2023-03-17",
+                "recorder": {
+                    "reference": "Practitioner/1",
+                    "display": "SYSTEM, SYSTEM Cerner"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/2572763289",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "2572763289",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2020-12-17T15:35:55Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Procedure</b></p><p><b>Patient</b>: Smart II, Nancy</p><p><b>Procedure</b>: Coronary artery bypass, using arterial graft(s); 2 coronary arterial grafts</p><p><b>Date</b>: Apr  5, 2019</p><p><b>Status</b>: Completed</p><p><b>Location</b>: Baseline East</p><p><b>Recorder</b>: SYSTEM, SYSTEM Cerner</p><p><b>Performer</b>:</p><ul><li>Cerner Test, Physician - Women&#39;s Health Cerner</li></ul></div>"
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "33534",
+                            "display": "Coronary artery bypass, using arterial graft(s); two coronary arterial grafts",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Coronary artery bypass, using arterial graft(s); 2 coronary arterial grafts"
+                },
+                "subject": {
+                    "reference": "Patient/12724066",
+                    "display": "Smart II, Nancy"
+                },
+                "encounter": {
+                    "reference": "Encounter/97953477"
+                },
+                "performedDateTime": "2019-04-05",
+                "recorder": {
+                    "reference": "Practitioner/1",
+                    "display": "SYSTEM, SYSTEM Cerner"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/4122630",
+                            "display": "Cerner Test, Physician - Women's Health Cerner"
+                        }
+                    }
+                ],
+                "location": {
+                    "display": "Baseline East"
+                },
+                "note": [
+                    {
+                        "authorReference": {
+                            "reference": "Practitioner/4122630",
+                            "display": "Cerner Test, Physician - Women's Health Cerner"
+                        },
+                        "time": "2019-04-05T20:21:46Z",
+                        "text": "Procedure comment"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+	]
+}

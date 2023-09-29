@@ -1,0 +1,825 @@
+{
+  "resourceType": "Bundle",
+  "id": "1dcab9a0-afef-4480-8c9f-877b4f5b9d49",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Patient?_id=12724067" 
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Patient/12724067",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "12724067",
+        "meta": {
+          "versionId": "2263",
+          "lastUpdated": "2023-09-29T08:14:44.000Z"
+        },
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Patient</b></p><p><b>Name</b>: Smart III, Joe</p><p><b>Status</b>: Active</p><p><b>DOB</b>: Sep 15, 1990</p><p><b>Birth Sex</b>: Female</p><p><b>Administrative Gender</b>: Female</p><p><b>Marital Status</b>: Divorced</p></div>"
+        },
+        "extension": [
+          {
+            "id": "491826657",
+            "extension": [
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4640016",
+                      "code": "2572136737",
+                      "display": "Clinical Communications",
+                      "userSelected": true
+                    },
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+                      "code": "progress-update",
+                      "display": "Progress Update",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Clinical Communications"
+                },
+                "url": "communication-type"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/23042",
+                      "code": "4054467",
+                      "display": "Telephone",
+                      "userSelected": true
+                    },
+                    {
+                      "system": "http://hl7.org/fhir/contact-point-system",
+                      "code": "phone",
+                      "display": "Phone",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Telephone"
+                },
+                "url": "contact-method"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/43",
+                      "code": "4149712",
+                      "display": "MOBILE",
+                      "userSelected": true
+                    },
+                    {
+                      "system": "http://hl7.org/fhir/contact-point-use",
+                      "code": "mobile",
+                      "display": "Mobile",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "MOBILE"
+                },
+                "url": "contact-type"
+              }
+            ],
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/communication-preference"
+          },
+          {
+            "valueCode": "F",
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+          },
+          {
+            "extension": [
+              {
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "1002-5",
+                  "display": "American Indian or Alaska Native",
+                  "userSelected": false
+                },
+                "url": "ombCategory"
+              },
+              {
+                "valueString": "American Indian or Alaska Native",
+                "url": "text"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+          },
+          {
+            "extension": [
+              {
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2135-2",
+                  "display": "Hispanic or Latino",
+                  "userSelected": false
+                },
+                "url": "ombCategory"
+              },
+              {
+                "valueString": "Hispanic, Latino, or Spanish Origin",
+                "url": "text"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+          }
+        ],
+        "identifier": [
+          {
+            "id": "CI-490505795-0",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2",
+                  "display": "Community Medical Record Number",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Community Medical Record Number"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.787.0.0",
+            "value": "22304",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "22304",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CI-490489455-1",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "10",
+                  "display": "MRN",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number",
+                  "userSelected": false
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:2.16.840.1.113883.6.1000",
+            "value": "29994",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "00000029994",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2021-12-12T05:00:00.000Z",
+              "end": "2022-01-02T05:00:00.000Z"
+            }
+          },
+          {
+            "id": "CI-491204504-2",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "10",
+                  "display": "MRN",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number",
+                  "userSelected": false
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:2.16.840.1.113883.6.1000",
+            "value": "29994",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "00000029994",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2018-01-02T05:00:00.000Z",
+              "end": "2022-01-02T05:00:00.000Z"
+            }
+          },
+          {
+            "id": "CI-490525912-3",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "10",
+                  "display": "MRN",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number",
+                  "userSelected": false
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:2.16.840.1.113883.6.1000",
+            "value": "31577",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "00000031577",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CI-490058771-4",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "10",
+                  "display": "MRN",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical record number",
+                  "userSelected": false
+                }
+              ],
+              "text": "MRN"
+            },
+            "system": "urn:oid:2.16.840.1.113883.6.1000",
+            "value": "6978",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "00000006978",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "end": "2020-07-06T21:21:25.000Z"
+            }
+          },
+          {
+            "id": "CI-490068348-6",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "22",
+                  "display": "Military Id",
+                  "userSelected": true
+                }
+              ],
+              "text": "Military Id"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+            "value": "1005007025",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "1005007025",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-08-10T16:35:27.000Z"
+            }
+          },
+          {
+            "id": "CI-490058805-7",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "670843",
+                  "display": "Messaging",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U",
+                  "display": "Unspecified identifier",
+                  "userSelected": false
+                }
+              ],
+              "text": "Messaging"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.8",
+            "value": "43DA797A657B47548F258A9B50EB41F5",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "43DA797A657B47548F258A9B50EB41F5",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-06-12T16:03:32.000Z"
+            }
+          },
+          {
+            "id": "CI-490187232-8",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "670843",
+                  "display": "Messaging",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U",
+                  "display": "Unspecified identifier",
+                  "userSelected": false
+                }
+              ],
+              "text": "Messaging"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.8",
+            "value": "10",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "10",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2018-01-02T05:00:00.000Z"
+            }
+          },
+          {
+            "id": "CI-490195398-9",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "670843",
+                  "display": "Messaging",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U",
+                  "display": "Unspecified identifier",
+                  "userSelected": false
+                }
+              ],
+              "text": "Messaging"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.8",
+            "value": "000000000000000000000000000000031",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "000000000000000000000000000000031",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2016-01-02T05:00:00.000Z",
+              "end": "2020-01-02T05:00:00.000Z"
+            }
+          },
+          {
+            "id": "CI-490096335-10",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236771",
+                  "display": "Federated Person Principal",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Federated Person Principal"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.6",
+            "value": "1234TEST",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "1234TEST",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-09-02T05:00:00.000Z",
+              "end": "2021-01-02T05:00:00.000Z"
+            }
+          },
+          {
+            "id": "CI-490068471-11",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236771",
+                  "display": "Federated Person Principal",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Federated Person Principal"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.6",
+            "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:AN7TD9A62CV8Z53Z",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:AN7TD9A62CV8Z53Z",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-08-10T16:52:29.000Z"
+            }
+          },
+          {
+            "id": "CI-490059570-12",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236771",
+                  "display": "Federated Person Principal",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Federated Person Principal"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.6",
+            "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:AN7TD9A62CV8Z53Z",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:AN7TD9A62CV8Z53Z",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-06-30T20:08:25.000Z"
+            }
+          },
+          {
+            "id": "CI-490058801-13",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236771",
+                  "display": "Federated Person Principal",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Federated Person Principal"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.6",
+            "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:KR8KC9MI9EQ8KC23",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:KR8KC9MI9EQ8KC23",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-06-12T16:03:29.000Z"
+            }
+          },
+          {
+            "id": "CI-490091610-14",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236771",
+                  "display": "Federated Person Principal",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Federated Person Principal"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.6",
+            "value": "123TEST",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "123TEST",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2020-01-02T05:00:00.000Z",
+              "end": "2020-12-02T05:00:00.000Z"
+            }
+          },
+          {
+            "id": "CI-490091667-15",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236771",
+                  "display": "Federated Person Principal",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "Federated Person Principal"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.6",
+            "value": "123TEST123",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "123TEST123",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CI-490153234-16",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236785",
+                  "display": "MIllennium Person Identifier",
+                  "userSelected": true
+                }
+              ],
+              "text": "MIllennium Person Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "12869",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "12869",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            },
+            "period": {
+              "start": "2017-01-23T12:10:00.000Z"
+            }
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1990-09-15",
+                        "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/38",
+                            "code": "309236",
+                            "display": "Divorced",
+                            "userSelected": true
+                        },
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                            "code": "D",
+                            "display": "Divorced",
+                            "userSelected": false
+                        }
+                    ],
+                    "text": "Divorced"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+                                        "code": "2553243305",
+                                        "display": "Authorized Representative",
+                                        "userSelected": true
+                                    }
+                                ],
+                                "text": "Authorized Representative"
+                            }
+                        ],
+                        "name": {
+                            "id": "CI-12791125-0",
+                            "use": "official",
+                            "text": "RPTEST, CHILD",
+                            "family": "RPTEST",
+                            "given": [
+                                "CHILD"
+                            ]
+                        },
+                        "period": {
+                            "start": "2019-12-26T16:06:26.000Z"
+                        }
+                    }],
+                    "address": [
+                    {
+                        "id": "CI-24398718-0",
+                        "use": "home",
+                        "text": "345 Park Avenue\nAPT 6\nNew York, NY 10001\nUS",
+                        "line": [
+                            "345 Park Avenue",
+                            "APT 6"
+                        ],
+                        "city": "New York",
+                        "district": "Jackson",
+                        "state": "NY",
+                        "postalCode": "10001",
+                        "country": "US",
+                        "period": {
+                            "start": "2021-12-12T15:33:18.000Z"
+                        }
+                    },
+                    {
+                        "id": "CI-24455474-1",
+                        "use": "home",
+                        "text": "1212 Faircastle Drive\nApartment 406\nKC, KS 64199\nUS",
+                        "line": [
+                            "1212 Faircastle Drive",
+                            "Apartment 406"
+                        ],
+                        "city": "KC",
+                        "district": "Jackson",
+                        "state": "KS",
+                        "postalCode": "64199",
+                        "country": "US",
+                        "period": {
+                            "start": "2012-05-17T15:33:18.000Z"
+                        }
+                    },
+                    {
+                        "id": "CI-24455476-2",
+                        "use": "home",
+                        "text": "1212 Faircastle Drive\nApartment 406\nKC, KS 64199\nUS",
+                        "line": [
+                            "1212 Faircastle Drive",
+                            "Apartment 406"
+                        ],
+                        "city": "KC",
+                        "district": "Jackson",
+                        "state": "KS",
+                        "postalCode": "64199",
+                        "country": "US",
+                        "period": {
+                            "start": "2012-05-17T15:33:18.000Z"
+                        }
+                    },
+                    {
+                        "id": "CI-24455672-3",
+                        "use": "home",
+                        "text": "1212 Faircastle Drive\nApartment 406\nKC, KS 64199\nUS",
+                        "line": [
+                            "1212 Faircastle Drive",
+                            "Apartment 406"
+                        ],
+                        "city": "KC",
+                        "district": "Jackson",
+                        "state": "KS",
+                        "postalCode": "64199",
+                        "country": "US",
+                        "period": {
+                            "start": "2012-05-17T15:33:18.000Z"
+                        }
+                    },
+                    {
+                        "id": "CI-24455743-4",
+                        "use": "home",
+                        "text": "1212 Faircastle Drive\nApartment 406\nKC, KS 64199\nUS",
+                        "line": [
+                            "1212 Faircastle Drive",
+                            "Apartment 406"
+                        ],
+                        "city": "KC",
+                        "district": "Jackson",
+                        "state": "KS",
+                        "postalCode": "64199",
+                        "country": "US"
+                    },
+                    {
+                        "id": "CI-24398716-5",
+                        "use": "home",
+                        "text": "11111 Faircastle Drive\nApartment 11111\nSt. Louissdsdsdsewe, MO 64199\nIndia",
+                        "line": [
+                            "11111 Faircastle Drive",
+                            "Apartment 11111"
+                        ],
+                        "city": "St. Louissdsdsdsewe",
+                        "district": "Johnsonssdsds",
+                        "state": "MO",
+                        "postalCode": "64199",
+                        "country": "India",
+                        "period": {
+                            "start": "2021-01-02T05:00:00.000Z",
+                            "end": "2022-01-02T05:00:00.000Z"
+                        }
+                    }
+                ]
+
+        
+      }
+    }
+  ]
+}

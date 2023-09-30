@@ -1,0 +1,278 @@
+{
+  "resourceType": "Bundle",
+  "id": "7259c7c5-e263-443e-951d-906b8c080c35",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference?patient=12724066"
+    },
+    {
+      "relation": "next",
+      "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference?patient=12724066&-pageContext=eJxljcsKgzAUBf_lrhNQK1aFLuyD0p3QD5DkJlEhJJIHrYj_XtuV0OU5zDALoI0mQJ0mBIRULOptLIDReeughsvj7saseZ5fYz-3bTNfbycgMDDfGfne2OCiJDCxXnZoTfh9oOQRE5ZJWhSoaJ6WOeVVpagUrESecsUOHFYCPmye6KZh9sLiPmyi1vuMYtr_db7Qun4A4YNChw%3D%3D&-pageDirection=NEXT"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/206142019",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "206142019",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-18T05:38:07.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Document Reference</b></p><p><b>Patient Name</b>: Smart II, Nancy</p><p><b>Document Type</b>: Inpatient Clinical Summary</p><p><b>Service Start Date</b>: May 12, 2023  9:17 P.M. UTC</p><p><b>Service End Date</b>: May 12, 2029  9:17 P.M. UTC</p><p><b>Document Status</b>: Final</p><p><b>Verifying Provider</b>: Portal, Portal</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.cerner.com/ceuuid",
+            "value": "CE87caf4b7-9397-4667-9897-702218017c9e-206142019-2023051805380800"
+          }
+        ],
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
+              "code": "4189665",
+              "display": "Inpatient Clinical Summary",
+              "userSelected": true
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "18842-5",
+              "userSelected": false
+            }
+          ],
+          "text": "Inpatient Clinical Summary"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "18842-5",
+                "userSelected": false
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note",
+                "userSelected": false
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/12724066",
+          "display": "Smart II, Nancy"
+        },
+        "date": "2023-05-18T05:38:07Z",
+        "author": [
+          {
+            "reference": "Practitioner/12742069",
+            "display": "Portal, Portal"
+          }
+        ],
+        "authenticator": {
+          "reference": "Practitioner/12742069",
+          "display": "Portal, Portal"
+        },
+        "custodian": {
+          "reference": "Organization/675844",
+          "display": "Model Hospital"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/pdf",
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-206142019",
+              "creation": "2029-05-12T21:17:30.000Z"
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/xml",
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XML-206142019",
+              "creation": "2029-05-12T21:17:30.000Z"
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/97953477"
+            }
+          ],
+          "period": {
+            "start": "2023-05-12T21:17:30Z",
+            "end": "2029-05-12T21:17:30Z"
+          },
+          "related": [
+            {
+              "reference": "DiagnosticReport/206142019"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/206130472",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "206130472",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-12T21:17:33.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Document Reference</b></p><p><b>Patient Name</b>: Smart II, Nancy</p><p><b>Document Type</b>: Admission Note Physician</p><p><b>Document Title</b>: 05/12/2023 - Current</p><p><b>Service Start Date</b>: May 12, 2023  9:17 P.M. UTC</p><p><b>Service End Date</b>: May 12, 2029  9:17 P.M. UTC</p><p><b>Document Status</b>: Final</p><p><b>Verifying Provider</b>: Portal, Portal</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.cerner.com/ceuuid",
+            "value": "CE87caf4b7-9397-4667-9897-702218017c9e-206130472-2023051221173300"
+          }
+        ],
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
+              "code": "2820507",
+              "display": "Admission Note Physician",
+              "userSelected": true
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "83805-2",
+              "userSelected": false
+            }
+          ],
+          "text": "Admission Note Physician"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "83805-2",
+                "userSelected": false
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note",
+                "userSelected": false
+              }
+            ],
+            "text": "Clinical Note"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "67852-4",
+                "userSelected": false
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/12724066",
+          "display": "Smart II, Nancy"
+        },
+        "date": "2023-05-12T21:17:33Z",
+        "author": [
+          {
+            "reference": "Practitioner/12742069",
+            "display": "Portal, Portal"
+          }
+        ],
+        "authenticator": {
+          "reference": "Practitioner/12742069",
+          "display": "Portal, Portal"
+        },
+        "custodian": {
+          "reference": "Organization/675844",
+          "display": "Model Hospital"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/pdf",
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-206130472",
+              "title": "05/12/2023 - Current",
+              "creation": "2023-05-12T21:17:30.000Z"
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/xml",
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XML-206130472",
+              "title": "05/12/2023 - Current",
+              "creation": "2023-05-12T21:17:30.000Z"
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/97953477"
+            }
+          ],
+          "period": {
+            "start": "2023-05-12T21:17:30Z",
+            "end": "2029-05-12T21:17:30Z"
+          },
+          "related": [
+            {
+              "reference": "DiagnosticReport/206130472"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
